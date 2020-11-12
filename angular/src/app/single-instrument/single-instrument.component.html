@@ -1,0 +1,19 @@
+<ul>
+    <li><h3>{{name}}</h3></li>
+    <li>Type : {{type}}</li>
+    <li>Marque : {{marque}}</li>
+    <li>Prix : {{prix}} euro</li><br/>
+
+
+<div *ngIf="user|async">
+    <form (ngSubmit)="ajouterPanier(f)" #f="ngForm">
+
+            <label for="nombre">
+                    Nombre
+            </label>
+            <input type="text" id="nombre" name="nombre" value="1" ngModel required/>
+
+            <input type="submit" value="Ajouter au panier"/>
+    </form>
+</div>
+</ul>

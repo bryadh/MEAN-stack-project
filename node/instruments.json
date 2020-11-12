@@ -1,0 +1,14 @@
+
+
+[
+	{"type":"A vent", "nom":"Clarinette", "marque":"SeleS", "prix":1439},
+	{"type":"A vent", "nom":"Saxophone", "marque":"Selmer", "prix":5898},
+	{"type":"Cordes-frotées", "nom":"Contrebasse", "marque":"Scala", "prix":4899},
+	{"type":"Cordes-frotées", "nom":"Violon", "marque":"Klaus Heffler","prix":6899},
+	{"type":"Cordes-pincées", "nom":"Guitare classique", "marque":"Alhambra","prix":784},
+	{"type":"Cordes-pincées","nom":"Guitare basse","marque":"Fender","prix":1559},
+	{"type":"Cordes-pincées","nom":"Guitare électrique","marque":"Gibson","prix":7899},
+	{"type":"Cordes-frappées","nom":"piano","marque":"Casio","prix":3590},
+	{"type":"Percussion","nom":"Batterie","marque":"Yamaha","prix":1899},
+	{"type":"Percussion","nom":"Vibraphone","marque":"Malletech","prix":7299}	
+]

@@ -1,0 +1,33 @@
+<form (ngSubmit)="onSubmit(f)" #f="ngForm">
+        <div>
+            <label for="nom">
+                Nom
+            </label>
+            <input type="text" id="nom" name="nom" ngModel required/>
+        </div>
+
+        <div>
+            <label for="prenom">
+                Prenom
+            </label>
+            <input type="text" id="prenom" name="prenom" ngModel required/>
+        </div>
+
+    <div>
+        <label for="email">
+            Email
+        </label>
+        <input type="text" id="email" name="email" ngModel required/>
+    </div>
+
+    <div>
+        <label for="password">
+            Mot de passe
+        </label>
+        <input type="password" id="password" name="password" ngModel required/>
+    </div>
+
+    <input type="submit" value="S'inscrire"/>
+
+   {{message}} 
+</form>

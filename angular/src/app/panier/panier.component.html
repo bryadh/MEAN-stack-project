@@ -1,0 +1,9 @@
+<h1>Votre panier</h1>
+<ul>
+    <li *ngFor = "let panier of paniers">
+            {{ panier["nombre"] }} {{ panier["nom"] }} - :{{ panier["prix"] }}  Euro - 
+            {{ panier["prix"] * panier["nombre"] }} Euro
+    </li>
+</ul>
+<p>Montant total du panier {{ getPrixTotal() }}</p>
+<button (click) = "validerPanier()">Valider le panier</button>

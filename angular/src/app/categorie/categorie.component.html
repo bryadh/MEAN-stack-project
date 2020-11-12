@@ -1,0 +1,15 @@
+<div *ngIf="!(user|async)">
+    <ul *ngFor="let categorie of categories">
+     <li>
+          {{ categorie }} 
+    </li> 
+    </ul>
+</div>
+
+<div *ngIf="user|async">
+        <ul *ngFor="let categorie of categories">
+         <li>
+              {{ categorie }} - <input type="button" value="CLiquez pour découvrire" (click)="produitCategorie(categorie)"/>
+        </li> 
+        </ul>
+    </div>

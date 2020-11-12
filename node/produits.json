@@ -1,0 +1,7 @@
+[
+	{"nom":"Caféine","type":"anti-fatigue","prix":15},
+	{"nom":"Curcumin","type":"anti-oxydant","prix":30},
+	{"nom":"Quarcétine","type":"anti-oxydant","prix":50},
+	{"nom":"Resvératol","type":"anti-oxydant","prix":45},
+	{"nom":"Rhodiola rosea","type":"anti-fatigue","prix":25}
+]

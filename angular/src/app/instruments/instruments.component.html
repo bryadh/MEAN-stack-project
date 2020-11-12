@@ -1,0 +1,12 @@
+<ul>
+    <h1>Liste d'instruments</h1>
+    <app-single-instrument *ngFor=" let instrument of instruments"
+        [name] = "instrument.nom"
+        [type] = "instrument.type"
+        [prix] = "instrument.prix"
+        [marque] = "instrument.marque">
+    </app-single-instrument>
+
+</ul>
+
+

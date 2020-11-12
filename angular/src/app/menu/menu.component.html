@@ -1,0 +1,17 @@
+<nav>
+    <div>
+        <ul *ngIf="!(user|async)">
+                <li routerLinkActive = "active"><a routerLink = '/categories'>Nos catégories d'instruments</a></li>
+            <li routerLinkActive = "active"><a routerLink = '/instruments'>Instruments</a></li>
+            <li routerLinkActive = "active"><a routerLink = '/autentification'>Connexion</a></li>
+            <li routerLinkActive = "active"><a routerLink = '/inscription'>S'inscrire</a></li>
+        </ul> 
+
+        <ul *ngIf="user|async">
+            <li routerLinkActive = "active"><a routerLink = '/categories'>Nos catégories d'instruments</a></li>
+            <li routerLinkActive = "active"><a routerLink = '/instruments'>Instruments</a></li>
+            <li routerLinkActive = "active"><a routerLink = '/paniers'>Mon panier</a></li>
+            <li ><a (click)="deconnexion()">Deconnexion de {{user|async}} </a></li>
+        </ul> 
+    </div>
+</nav>
